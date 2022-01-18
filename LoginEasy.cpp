@@ -2,7 +2,7 @@
 #include<iomanip>
 using namespace std;
 const char ID[30] = "nguyenphan0101";
-const char password[20] = "maiphuongbeovcl";
+const char password[20] = "np0101";
 char x[30];
 char y[20];
 int dem = 0;
