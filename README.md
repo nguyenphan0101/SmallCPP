@@ -1,2 +1,2 @@
 # SmallCPP
-some small code in the beginning
+AT THE BEGINNING
