@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<string.h> 
+
+void rep(int s[100], int x) {
+	for (int i = 0; i < x; i++) {
+		scanf("%d", &s[i]);
+	}
+}
+void BubbleSort(int s[100], int x) {
+	int temp = 0;
+	for (int i = 0; i < x; i++) {
+		for (int j = 0; j < x - i - 1; j++) {
+			if (s[j + 1] > s[j]) {
+				temp = s[j+1];
+				s[j+1] = s[j];
+				s[j] = temp;
+			}
+		}
+	}
+}
+void rep2(int s[100], int x) {
+	for (int i = 0; i < x; i++) {
+		printf("%d ", s[i]);
+	}
+}
+int main() {
+	int x;
+	int s[100];
+	scanf("%d", &x);
+	rep(s,x);
+	BubbleSort(s, x);
+	rep2(s, x);
+
+}
