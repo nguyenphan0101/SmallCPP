@@ -1,2 +1,0 @@
-# SmallCPP
-AT THE BEGINNING
